@@ -1,0 +1,12 @@
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\bin\Debug\net6.0\EmployeeManagement.Model.deps.json
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\bin\Debug\net6.0\EmployeeManagement.Model.dll
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\bin\Debug\net6.0\EmployeeManagement.Model.pdb
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.AssemblyInfoInputs.cache
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.AssemblyInfo.cs
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.csproj.CoreCompileInputs.cache
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.sourcelink.json
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.dll
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\refint\EmployeeManagement.Model.dll
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.pdb
+C:\Users\vital\source\repos\BlazorTestPg\EmployeeManagement.Model\obj\Debug\net6.0\ref\EmployeeManagement.Model.dll

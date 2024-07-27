@@ -1,0 +1,39 @@
+﻿@page "/employeedetails/{id}"
+@page "/employeedetails"
+@inherits EmployeeDetailsBase
+
+<h3>Employee Details</h3>
+
+@if (Employee == null)
+{
+    <div class="spinner">
+        <div class="loader"></div>
+        <p><em>Loading...</em></p>
+    </div>
+}
+else
+{
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-header text-center">
+                <h5>@Employee.EmployeeFirstName @Employee.EmployeeLastName</h5>
+            </div>
+            <img class="card-img-top mx-auto d-block" src="@Employee.PhotoPath" alt="@Employee.EmployeeFirstName @Employee.EmployeeLastName" style="max-height: 150px; max-width: 150px; object-fit: contain; border-radius: 50%;" />
+            <div class="card-body text-center">
+                <p>EmployeeEmail: @Employee.EmployeeEmail</p>
+                <p>Department: @(Employee.Department == null ? "N/A" : Employee.Department.DepartmentName)</p>
+                <p>EmployeeId: @Employee.EmployeeId</p>
+                <p>Date Of Birth: @Employee.DateOfBirth.ToString("d")</p>
+                <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
+            </div>
+            @if (!string.IsNullOrEmpty(CssClass))
+            {
+                <div class="card-footer d-flex justify-content-center @CssClass">
+                    <a href="/" class="btn btn-primary m-1">Back</a>
+                    <a href="@($"/editemployee/{Employee.EmployeeId}")" class="btn btn-secondary m-1">Edit</a>
+                    <a href="#" class="btn btn-danger m-1">Delete</a>
+                </div>
+            }
+        </div>
+    </div>
+}

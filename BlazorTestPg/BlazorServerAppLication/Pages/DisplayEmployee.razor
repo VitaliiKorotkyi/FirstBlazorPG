@@ -1,0 +1,26 @@
+﻿@page "/displayemployee"
+@inherits BlazorServerAppLication.Pages.DisplayEmployeeBase
+
+
+
+<div class="col">
+    <div class="card h-100">
+        <div class="card-header text-center">
+            <input type="checkbox" @onchange="CheckBoxChenged"></input>
+            <h5>@Employee.EmployeeFirstName @Employee.EmployeeLastName</h5>
+        </div>
+        <img class="card-img-top mx-auto d-block" src="@Employee.PhotoPath" alt="@Employee.EmployeeFirstName @Employee.EmployeeLastName" style="max-height: 150px; max-width: 150px; object-fit: contain; border-radius: 50%;" />
+        <div class="card-body text-center">
+            <p>@Employee.EmployeeEmail</p>
+            <p>@Employee.Department?.DepartmentName</p>
+        </div>
+        @if (ShowFooter)
+        {
+            <div class="card-footer d-flex justify-content-center">
+                <a href="@($"/employeedetails/{Employee.EmployeeId}")" class="btn btn-primary m-1">View</a>
+                <a href="@($"/editemployee/{Employee.EmployeeId}")" class="btn btn-secondary m-1">Edit</a>
+                <a href="#" class="btn btn-danger m-1">Delete</a>
+            </div>
+        }
+    </div>
+</div>

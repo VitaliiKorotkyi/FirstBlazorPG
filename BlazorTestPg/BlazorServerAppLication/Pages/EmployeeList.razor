@@ -1,0 +1,49 @@
+﻿@page "/employeelist"
+@using EmployeeManagement.Model
+@inherits EmployeeListBase
+<h4>Display Employees</h4>
+<input type="checkbox" id="showFooter" @bind="ShowFooter" />
+<label for="showFooter">Show Footer</label>
+<PageTitle>Employee List</PageTitle>
+<h5>Selected Employees count @SelectedEmploeesCount </h5>
+<div class="row row-cols-1 row-cols-md-5 g-4">
+    
+    @if (Employees == null || !Employees.Any())
+    {
+        <div class="spinner">
+            <div class="loader"></div>
+            <p><em>Loading...</em></p>
+        </div>
+    }
+
+    
+    else
+    {
+ 
+        @foreach (var employee in Employees)
+        {
+
+            <DisplayEmployee Employee="employee" ShowFooter="ShowFooter" OnEmployeeSalection="EmployeeSelectionChanged"></DisplayEmployee>
+        }
+    }
+</div>
+
+@code {
+    private IEnumerable<Employee> Employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Employees = await EmployeeService.GetAllEmployees();
+            if (Employees == null || !Employees.Any())
+            {
+                Console.WriteLine("No employees found.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+}

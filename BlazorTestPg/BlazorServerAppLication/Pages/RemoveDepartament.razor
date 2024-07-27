@@ -1,0 +1,29 @@
+﻿@page "/remove-department/{Name}"
+@inherits RemoveDepartamentBase
+
+<h3>Remove Department</h3>
+
+@if (IsLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    @if (IsSuccessful)
+    {
+        <p>The department '@Name' was successfully removed.</p>
+    }
+    else
+    {
+        <p>Failed to remove the department '@Name'.</p>
+    }
+}
+
+<button @onclick="GoBack">Go Back</button>
+
+@code {
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/departments");
+    }
+}

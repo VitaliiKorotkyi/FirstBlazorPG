@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|c:\\users\\vital\\source\\repos\\blazortestpg\\blazorserverapplication\\pages\\editemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|solutionrelative:blazorserverapplication\\pages\\editemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|c:\\users\\vital\\source\\repos\\blazortestpg\\blazorserverapplication\\pages\\editemployeebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|solutionrelative:blazorserverapplication\\pages\\editemployeebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|c:\\users\\vital\\source\\repos\\blazortestpg\\blazorserverapplication\\pages\\showalldepartament.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|solutionrelative:blazorserverapplication\\pages\\showalldepartament.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|c:\\users\\vital\\source\\repos\\blazortestpg\\blazorserverapplication\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|solutionrelative:blazorserverapplication\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|c:\\users\\vital\\source\\repos\\blazortestpg\\blazorserverapplication\\pages\\showalldepartamentbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2E5704-7FCC-4C1A-AA29-8053B8596E83}|BlazorServerAppLication\\BlazorServerAppLication.csproj|solutionrelative:blazorserverapplication\\pages\\showalldepartamentbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditEmployeeBase.cs",
+              "DocumentMoniker": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\EditEmployeeBase.cs",
+              "RelativeDocumentMoniker": "BlazorServerAppLication\\Pages\\EditEmployeeBase.cs",
+              "ToolTip": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\EditEmployeeBase.cs",
+              "RelativeToolTip": "BlazorServerAppLication\\Pages\\EditEmployeeBase.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAcwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:19:27.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\EditEmployee.razor",
+              "RelativeDocumentMoniker": "BlazorServerAppLication\\Pages\\EditEmployee.razor",
+              "ToolTip": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\EditEmployee.razor",
+              "RelativeToolTip": "BlazorServerAppLication\\Pages\\EditEmployee.razor",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T11:15:43.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowAllDepartament.razor",
+              "DocumentMoniker": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\ShowAllDepartament.razor",
+              "RelativeDocumentMoniker": "BlazorServerAppLication\\Pages\\ShowAllDepartament.razor",
+              "ToolTip": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\ShowAllDepartament.razor",
+              "RelativeToolTip": "BlazorServerAppLication\\Pages\\ShowAllDepartament.razor",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T10:52:11.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowAllDepartamentBase.cs",
+              "DocumentMoniker": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\ShowAllDepartamentBase.cs",
+              "RelativeDocumentMoniker": "BlazorServerAppLication\\Pages\\ShowAllDepartamentBase.cs",
+              "ToolTip": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Pages\\ShowAllDepartamentBase.cs",
+              "RelativeToolTip": "BlazorServerAppLication\\Pages\\ShowAllDepartamentBase.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T10:13:06.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "BlazorServerAppLication\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\vital\\source\\repos\\BlazorTestPg\\BlazorServerAppLication\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "BlazorServerAppLication\\Services\\DepartmentService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAcwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T10:12:29.133Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿@page "/addemployee"
+@inherits BlazorServerAppLication.Pages.AddNewEmployeeBase
+
+<div class="card-container" style="width: 650px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); background-color: #fff;">
+    <h3>Add New Employee</h3>
+
+    <EditForm Model="NewEmployee" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="validation-summary" />
+
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <InputText id="firstName" class="form-control" @bind-Value="NewEmployee.EmployeeFirstName" placeholder="First Name" />
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <InputText id="lastName" class="form-control" @bind-Value="NewEmployee.EmployeeLastName" placeholder="Last Name" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <InputText id="email" class="form-control" @bind-Value="NewEmployee.EmployeeEmail" placeholder="Email" />
+        </div>
+
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth</label>
+            <InputDate id="dateOfBirth" class="form-control" @bind-Value="NewEmployee.DateOfBirth" />
+        </div>
+
+        <div class="form-group">
+            <label for="photoPath">Photo Path</label>
+            <InputText id="photoPath" class="form-control" @bind-Value="NewEmployee.PhotoPath" placeholder="Photo Path" />
+        </div>
+
+        <div class="form-group">
+            <label for="department">Department</label>
+            <InputText id="department" class="form-control" @bind-Value="NewEmployee.Department.DepartmentName" placeholder="Department" />
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <InputSelect id="gender" class="form-control" @bind-Value="NewEmployee.Gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </InputSelect>
+        </div>
+        <hr />
+        <button type="submit" class="btn btn-primary">Add Employee</button>
+    </EditForm>
+</div>
+
+

@@ -1,0 +1,63 @@
+﻿@page "/editemployee/{Id:int}"
+@inherits EditEmployeeBase
+
+<h3>Edit Employee</h3>
+
+@if (IsLoading)
+{
+    <p>Loading employee data...</p>
+}
+else
+{
+    <EditForm Model="Employee" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="validation-summary" />
+
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <InputText id="firstName" class="form-control" @bind-Value="Employee.EmployeeFirstName" placeholder="First Name" />
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <InputText id="lastName" class="form-control" @bind-Value="Employee.EmployeeLastName" placeholder="Last Name" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <InputText id="email" class="form-control" @bind-Value="Employee.EmployeeEmail" placeholder="Email" />
+        </div>
+
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth</label>
+            <InputDate id="dateOfBirth" class="form-control" @bind-Value="Employee.DateOfBirth" />
+        </div>
+
+        <div class="form-group">
+            <label for="photoPath">Photo Path</label>
+            <InputText id="photoPath" class="form-control" @bind-Value="Employee.PhotoPath" placeholder="Photo Path" />
+        </div>
+
+        <div class="form-group">
+            <label for="department">Department</label>
+            <InputSelect id="department" class="form-control" @bind-Value="Employee.DepartmentId">
+                <option value="">Select Department</option>
+                @foreach (var department in Departments)
+                {
+                    <option value="@department.DepartmentId">@department.DepartmentName</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <InputSelect id="gender" class="form-control" @bind-Value="Employee.Gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </InputSelect>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </EditForm>
+}

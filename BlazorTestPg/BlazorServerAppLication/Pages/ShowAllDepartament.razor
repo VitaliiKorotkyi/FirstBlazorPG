@@ -1,0 +1,32 @@
+﻿@page "/departments"
+@inherits ShowAllDepartamentBase
+
+<h3>All Departments</h3>
+
+
+@if (IsLoading)
+{
+    <p>Loading...</p>
+}
+else if (HasError)
+{
+    <p>Error: @ErrorMessage</p>
+}
+else if (Departments != null && Departments.Count > 0)
+{
+    <ul>
+        @foreach (var department in Departments)
+        {
+            <li>
+                @department.DepartmentName
+                <NavLink class="nav-link" href="@($"/remove-department/{department.DepartmentName}")" Match="NavLinkMatch.All">
+                    Remove
+                </NavLink>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No departments available.</p>
+}

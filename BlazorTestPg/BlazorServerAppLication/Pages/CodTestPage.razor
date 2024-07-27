@@ -1,0 +1,15 @@
+﻿@page "/CodTestPage"
+@inherits BlazorServerAppLication.Pages.CodTestPageBase
+
+
+<h3>CodTestPage</h3>
+
+<h5>Two  way data Binding</h5>
+<hr />
+<b>Description</b>
+<div>
+    <textarea @bind="Description" @bind:event="oninput" style="width=500px" />
+</div>
+<div> 
+    Count: @Description.Length;
+</div>
